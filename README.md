@@ -4,7 +4,7 @@ Proyecto realizado en Laravel para administrar tareas personales.
 
 ## Nombre
 
-David Salazar
+David Salazar Gonzalez
 
 ## Versiones utilizadas
 
