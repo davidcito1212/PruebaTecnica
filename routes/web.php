@@ -12,14 +12,14 @@ Route::get('/tareas/crear', [TareaController::class, 'create'])
 Route::post('/tareas', [TareaController::class, 'store'])
     ->name('tareas.store');
 
-Route::get('/tareas/{tarea}/editar', [TareaController::class, 'edit'])
+Route::get('/tareas/{id}/editar', [TareaController::class, 'edit'])
     ->name('tareas.edit');
 
-Route::put('/tareas/{tarea}', [TareaController::class, 'update'])
+Route::put('/tareas/{id}', [TareaController::class, 'update'])
     ->name('tareas.update');
 
-Route::delete('/tareas/{tarea}', [TareaController::class, 'destroy'])
+Route::delete('/tareas/{id}', [TareaController::class, 'destroy'])
     ->name('tareas.destroy');
 
-Route::patch('/tareas/{tarea}/toggle', [TareaController::class, 'toggle'])
+Route::patch('/tareas/{id}/toggle', [TareaController::class, 'toggle'])
     ->name('tareas.toggle');
